@@ -1,27 +1,21 @@
 function triangleTracker() {
-
-
-// var firstSide = parseInt(document.getElementById('a').side);
-// var secondSide = parseInt(document.getElementById('b').side);
-// var thirdSide = parseInt(document.getElementById('c').side);
-// var outputs = document.getElementById("outputs");
-
-var firstSide = document.getElementById('a').side;
-var secondSide = document.getElementById('b').side;
-var thirdSide = document.getElementById('c').side;
-
-if(firstSide==secondSide && secondSide==thirdSide && thirdSide==firstSide){
+var a;
+var b;
+var c;
+}
+//All sides are equal
+if(a==b && b==c){
   alert("equilateral triangle");
-}
-else if(firstSide==secondSide || secondSide==thirdSide || thirdSide==firstSide){
+}//At least two sides are equal
+else if(a==b && b!=c ) || (a!=b && c==a) || (c==b && c!=a){
   alert("isosceles");
-}
-else if(firstSide!==secondSide!==thirdSide){
+}//No sides are equal
+else if(a!=b && b!=c && c!=a){
   alert("scalene");
 }
-else if(firstSide + secondSide <= thirdSide || firstSide + thirdSide <= secondSide || secondSide + thirdSide
+else if(a >= (b+c) || c >= (b+a) || b >= (a+c) )
 }
 else {
-  alert("enter valid side");
+  alert("Not a triangle");
 }
 }

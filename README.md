@@ -1,10 +1,21 @@
 ## TRIANGLE TRACKER
-This is a triangle tracker whose function is to provide results on which type of a triangle will be output depending on the sides of the triangle.
+Determine if a triangle is equilateral, isosceles, scalene, or not a triangle.
+
+An equilateral triangle has all three sides the same length.
+
+An isosceles triangle has at least two sides the same length. (It is sometimes specified as having exactly two sides the same length, but for the purposes of this exercise we'll say at least two.
+
+A scalene triangle has all sides of different lengths.
+
+Note
+For a shape to be a triangle at all, all sides have to be of length > 0, and the sum of the lengths of any two sides must be greater than or equal to the length of the third side. See Triangle Inequality.
+
+The case where the sum of the lengths of two sides equals that of the third is known as a degenerate triangle - it has zero area and looks like a single line and the results of the code should prompt not a triangle.
 
 ## SETUP/ INSTALLATIONS
 Go through the setup instructions for JavaScript to install the necessary dependencies: -Follow the link to install the nessesary dependancies https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
--Click the below link to download the site repository to your local machine. https://github.com/bertocarl/bertocarl.github.io.git
+-Click the below link to download the site repository to your local machine. https://github.com/bertocarl/triangle-tracker
 
 -From a terminal window, change to the local directory where you want to clone your repository.
 
