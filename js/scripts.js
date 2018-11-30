@@ -4,15 +4,15 @@ var width=parseFloat(prompt("side width"));
 var height=parseFloat(prompt("side height"));
 
 if(length===width && length===height && width===height){
-alert("equilateral triangle");
+alert("Equilateral triangle");
 }
 else if(length===width || length===height || width===height){
-alert("isoceles triangle");
+alert("Isoceles triangle");
 }
 else if((length+width)<=height || (length+height)<=width || (width+height)<=length){
-alert("Invalid Dimension, NOT a Triangle");
+alert("Scalene");
 }
 else{
-alert("scalene");
+alert("NOT a triangle");
 }
 }
