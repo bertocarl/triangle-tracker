@@ -1,5 +1,8 @@
 ## TRIANGLE TRACKER
-Determine if a triangle is equilateral, isosceles, scalene, or not a triangle.
+
+This application determine if a triangle is equilateral, isosceles, scalene, or not a triangle.
+
+##  Description
 
 An equilateral triangle has all three sides the same length.
 
@@ -28,11 +31,14 @@ To deploy the pages and view the uploaded changes of the index.html file we go t
 
 -Click the environment link on the page and click the deployment to be able to view the changes on your browser of the uploaded work.
 
-## Built With
-Dropwizard - The web framework used Maven - Dependency Management ROME - Used to generate RSS Feeds
+## Known Bugs
+There are no known bugs at the moment but kindly feel free to contact me via github:https://github.com/bertocarl/triangle-tracker
 
-## Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+## Technologies used
+The program is written using HTML, CSS and JavaScript languages and in the project I have used error handling functions in JavaScript to reduce chances of errors while tracking for an accurate answer. The results are also displayed with a pictorial representation which I think is a plus for the system.
+
+## Support
+For support kindly find me on github with the following link:https://github.com/bertocarl/triangle-tracker and kindly feel free to share your contributions to the application and also modifying the code.
 
 ## AUTHOR
 Albert Carlos Omware
