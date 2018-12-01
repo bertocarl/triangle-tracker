@@ -11,14 +11,14 @@ $(document).ready(function() {
       result = ("Not a triangle");
       $("#triangleImage").prop("src", "img/not-triangle.png")
     } else if (side1 === side2 && side2 === side3 && side1 === side3) {
-      result = ("Equilateral"); // All side equal
+      result = ("Equilateral triangle"); // All side equal
       $("#triangleImage").prop("src", "img/equilateral.png")
     } else if (side1 != side2 && side1 != side3) {
-      result = ("Scalene"); // No side equal
+      result = ("Scalene triangle"); // No side equal
       $("#triangleImage").prop("src", "img/scalene.png")
     }
     else {
-      result = ("Isosceles"); // Two sides equal
+      result = ("Isosceles triangle"); // Two sides equal
       $("#triangleImage").prop("src", "img/isosceles.png")
     }
 
