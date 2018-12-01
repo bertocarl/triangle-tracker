@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     if (side1 + side2 <= side3 || side2 + side3 <= side1 || side1 + side3 <= side2) {
       result = ("Not a triangle");
-      $("#triangleImage").prop("src", "")
+      $("#triangleImage").prop("src", "img/not-triangle.png")
     } else if (side1 === side2 && side2 === side3 && side1 === side3) {
       result = ("Equilateral"); // All side equal
       $("#triangleImage").prop("src", "https://upload.wikimedia.org/wikipedia/commons/e/e0/Equilateral-triangle.svg")
