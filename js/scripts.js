@@ -12,14 +12,14 @@ $(document).ready(function() {
       $("#triangleImage").prop("src", "img/not-triangle.png")
     } else if (side1 === side2 && side2 === side3 && side1 === side3) {
       result = ("Equilateral"); // All side equal
-      $("#triangleImage").prop("src", "https://upload.wikimedia.org/wikipedia/commons/e/e0/Equilateral-triangle.svg")
+      $("#triangleImage").prop("src", "img/equilateral.png")
     } else if (side1 != side2 && side1 != side3) {
       result = ("Scalene"); // No side equal
-      $("#triangleImage").prop("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Triangle.Scalene.svg/640px-Triangle.Scalene.svg.png")
+      $("#triangleImage").prop("src", "img/scalene.png")
     }
     else {
       result = ("Isosceles"); // Two sides equal
-      $("#triangleImage").prop("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/389px-Triangle.Isosceles.svg.png")
+      $("#triangleImage").prop("src", "img/isosceles.png")
     }
 
     $(".panel").text(result).show();
