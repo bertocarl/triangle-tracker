@@ -1,6 +1,88 @@
-.panel {
-  display: none;
-  margin-top: 20px;
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3498db;
+}
+
+h1, h2, h3, h4, h5 ,h6{
+  font-weight: 200;
+  font-size: 20;
+  font-stretch: expanded;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+p, li, a{
   font-size: 14px;
-  padding: 6px 12px;
+}
+
+fieldset{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* GRID */
+
+.twelve { width: 100%; }
+.eleven { width: 91.53%; }
+.ten { width: 83.06%; }
+.nine { width: 74.6%; }
+.eight { width: 66.13%; }
+.seven { width: 57.66%; }
+.six { width: 49.2%; }
+.five { width: 40.73%; }
+.four { width: 32.26%; }
+.three { width: 23.8%; }
+.two { width: 15.33%; }
+.one { width: 6.866%; }
+
+/* COLUMNS */
+
+.col {
+	display: block;
+	float:left;
+	margin: 0 0 0 1.6%;
+}
+
+.col:first-of-type {
+  margin-left: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.row{
+  padding: 20px 0;
+}
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 30px 0;
 }
