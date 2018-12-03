@@ -6,17 +6,20 @@ $(document).ready(function() {
     var side2 = parseFloat($("#side2").val());
     var side3 = parseFloat($("#side3").val());
     var result;
-
+    //checks if the triangle is not a triangle
     if (side1 + side2 <= side3 || side2 + side3 <= side1 || side1 + side3 <= side2) {
       result = ("Not a triangle");
       $("#triangleImage").prop("src", "img/not-triangle.png")
+    //checks if the triangle is equilateral and all sides are equal
     } else if (side1 === side2 && side2 === side3 && side1 === side3) {
       result = ("Equilateral triangle"); // All side equal
       $("#triangleImage").prop("src", "img/equilateral.png")
+    //checks if the triangle is a scalene and no side is equal
     } else if (side1 != side2 && side1 != side3) {
       result = ("Scalene triangle"); // No side equal
       $("#triangleImage").prop("src", "img/scalene.png")
     }
+    //concludes that the triangle is isosceles after the above checks are not true and two sides are equal
     else {
       result = ("Isosceles triangle"); // Two sides equal
       $("#triangleImage").prop("src", "img/isosceles.png")
@@ -27,6 +30,7 @@ $(document).ready(function() {
 
   });
 });
+//this functions checks for arithmetic errors while inputing values in the input boxes
 $(function() {
     var createAllErrors = function() {
         var form = $(this);
@@ -60,3 +64,7 @@ $(function() {
 
     $('form').each(createAllErrors);
 });
+//this resets the form data to refresh values for the next checks
+function reset () {
+  location.reload ();
+}

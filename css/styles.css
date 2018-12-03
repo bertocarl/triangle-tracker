@@ -1,5 +1,5 @@
 html {
-  background: #333 url("bgtri.jpeg") no-repeat center bottom;
+  background: url("img/bgtri.jpeg") no-repeat center bottom;
   background-size: contain;
 }
 
@@ -116,10 +116,3 @@ input:focus::-moz-placeholder {
 input:focus:-ms-input-placeholder {
   opacity: .5;
 }
-
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
-
-html {
