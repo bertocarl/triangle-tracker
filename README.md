@@ -26,6 +26,7 @@ Go through the setup instructions for JavaScript to install the necessary depend
 
 -Now push the changes back to the github using the push command /git push origin master/ and go to view the deployment.
 
+![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/triangle%20tracker.png)
 ## Deployment
 To deploy the pages and view the uploaded changes of the index.html file we go to the original repository: https://github.com/bertocarl/triangle-tracker
 
@@ -40,7 +41,7 @@ The program is written using HTML, CSS and JavaScript languages and in the proje
 ## Support
 For support kindly find me on github with the following link:https://github.com/bertocarl/triangle-tracker and kindly feel free to share your contributions to the application and also modifying the code.
 
-## AUTHOR
+## Author
 Albert Carlos Omware
 
 ## License
