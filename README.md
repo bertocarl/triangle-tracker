@@ -25,10 +25,12 @@ Go through the setup instructions for JavaScript to install the necessary depend
 -Now make changes and use /git add ./ to record the changes and commit the code using /git commit -m ""/ to add comments of what has been done.
 
 -Now push the changes back to the github using the push command /git push origin master/ and go to view the deployment.
+![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/triangle%20tracker.png)
+
 ## BDD
 I went about this project with the approach of behaviour driven development and I came up with a flowchart to explain how I went through this project;
 
-![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/bdd.jpeg)
+![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/bdd.jpg)
 ## Deployment
 To deploy the pages and view the uploaded changes of the index.html file we go to the original repository: https://github.com/bertocarl/triangle-tracker
 
