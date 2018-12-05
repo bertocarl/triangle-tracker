@@ -28,7 +28,9 @@ Go through the setup instructions for JavaScript to install the necessary depend
 ![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/triangle%20tracker.png)
 
 ## BDD
-I went about this project with the approach of behaviour driven development and I came up with a flowchart to explain how I went through this project;
+-When the user input the sides of a triangle the input is accepted as input.
+-The input is processed by functions and calculated.
+-The processed input is output as results and a triangle type is described.
 
 ![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/bdd.jpg)
 ## Deployment
