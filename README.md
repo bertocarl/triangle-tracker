@@ -28,11 +28,14 @@ Go through the setup instructions for JavaScript to install the necessary depend
 ![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/triangle%20tracker.png)
 
 ## BDD
+
 -When the user input the sides of a triangle the input is accepted as input.
+
 -The input is processed by functions and calculated.
+
 -The processed input is output as results and a triangle type is described.
 
-![image](https://github.com/bertocarl/triangle-tracker/blob/master/img/bdd.jpg)
+
 ## Deployment
 To deploy the pages and view the uploaded changes of the index.html file we go to the original repository: https://github.com/bertocarl/triangle-tracker
 

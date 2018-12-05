@@ -7,22 +7,22 @@ $(document).ready(function() {
     var side3 = parseFloat($("#side3").val());
     var result;
     //checks if the triangle is not a triangle
-    if (side1 + side2 <= side3 || side2 + side3 <= side1 || side1 + side3 <= side2) {
-      result = ("Not a triangle");
-      $("#triangleImage").prop("src", "img/not-triangle.png")
+    if (side1 !== side2 && side2 !== side3) {
+      result = ("isosceles triangle");
+      $("#triangleImage").prop("src", "img/isosceles.png")
     //checks if the triangle is equilateral and all sides are equal
-    } else if (side1 === side2 && side2 === side3 && side1 === side3) {
+    } else if (side1 == side2 && side2 === side3) {
       result = ("Equilateral triangle"); // All side equal
       $("#triangleImage").prop("src", "img/equilateral.png")
     //checks if the triangle is a scalene and no side is equal
-    } else if (side1 != side2 && side1 != side3) {
+  } else if (side1 !== side2 && side2 !== side3) {
       result = ("Scalene triangle"); // No side equal
       $("#triangleImage").prop("src", "img/scalene.png")
     }
     //concludes that the triangle is isosceles after the above checks are not true and two sides are equal
     else {
-      result = ("Isosceles triangle"); // Two sides equal
-      $("#triangleImage").prop("src", "img/isosceles.png")
+      result = ("Not a triangle"); // Two sides equal
+      $("#triangleImage").prop("src", "img/not-triangle.png")
     }
 
     $(".panel").text(result).show();
